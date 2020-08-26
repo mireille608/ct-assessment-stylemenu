@@ -5,7 +5,8 @@
     - cover background with the "map-bg.jpg" image in the images directory. 
 */ 
 body{
-    font: 18px 'Lato';
+    font-family: lato;
+    font-size: 18px;
     background: url("../images/map-bg.jpg");
     background-size: cover;
 }
@@ -13,19 +14,19 @@ nav {
     font-family: sans-serif;
     font-size: 10px;
 }
-/*
-#main {
+
+#main{
     width: 900px;
     margin: 10px auto;
 }
- 
+/* 
     Add a CSS ruleset targeting the restaurant name to accomplish the following:
         - Use the 'Supermercado One' font 
         - set the font size to 45px 
         - set the font color to #5d4037
 */
 h1{
-    font: 'Supermercado One';
+    font-family: Supermercado One;
     font-size: 45px;
     color: #5d4037;
 
@@ -36,8 +37,8 @@ h1{
         - Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown
    */ 
    #menu {
-        columns: 400px 2;
-        column-gap:100 px;
+        columns: 400px 2 ;
+        column-gap: 100px;
         column-rule: 2px dashed rosybrown;
     
    }
@@ -55,10 +56,11 @@ h2 {
         - Show each of the section headings of the menu  in small caps
         - set the font color to #6d4c41
 */
-    #starter {
+ h2{
     font-variant: small-caps;
     color: #6d4c41;
 }
+
 /* 
     Add a CSS ruleset targeting the name of each menu item to accomplish the following:
         - Set the font size to 20px
@@ -66,7 +68,7 @@ h2 {
 */
 dt{
     font-size: 20px;
-    font: bold;
+    font-weight: bold;
 }
  
 dd {
@@ -101,8 +103,9 @@ address {
 /* 
     Add a CSS ruleset targeting the footer to accomplish the following:
         - Draw a 2px dashed rosybrown border
-*/
+ */
 #footer{
-    border:dashed rosybrown;
+    border: 2px dashed rosybrown;
+
 }
 

@@ -3,15 +3,17 @@
     Add a CSS ruleset to accomplish the following:
     - Use the 'Oswald' font family at 14px throughout the body of the document.
 */
-    body{
-        font-family: 14px Oswald;
-    }
+body{
+    font-family: Oswald;
+    font-size: 14px;
+}
+
 nav {
     font-family: sans-serif;
     font-size: 10px;
 }
 
-#main {
+#main{
     width: 900px;
     margin: 10px auto;
 }
@@ -23,9 +25,9 @@ nav {
         - use a lighter weight font
 */
 h1{
-    font: 'Bungee Inline';
+    font-family: Bungee Inline;
     font-size: 46px;
-     color: lighter weight;
+    font-weight: lighter;
 }
 
 #menu {
@@ -46,20 +48,19 @@ h2 {
     Add a CSS ruleset targeting targeting the headings of the menu (e.g. "Starters") to accomplish the following:
         - Show each of the section headings of the menu in uppercase
 */
-#starters{
-        text-transform: capitalize;
+h2{
+  
+    text-transform: uppercase;
 }
 
-#dessert{
-    text-transform: capitalize;
-}
+
 /* 
      Update the following ruleset (dt) to accomplish the following:
         - Make the name of each menu item appear in bold 
         - set the font size to 16px
 */
 
-dt {
+dt{
     display: inline;
     font-size: 16px;
     font-weight: bold;
@@ -109,5 +110,5 @@ border: 2px black solid;
 
 }
 #desserts{
-    border:2px black solid;
+    border: 2px black solid;
 }
